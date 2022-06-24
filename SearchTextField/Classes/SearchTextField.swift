@@ -139,13 +139,14 @@ open class SearchTextField: UITextField {
     fileprivate var tableView: UITableView?
     fileprivate var shadowView: UIView?
     fileprivate var direction: Direction = .down
-    fileprivate var fontConversionRate: CGFloat = 0.7
+    fileprivate var fontConversionRate: CGFloat = 0.8
     fileprivate var keyboardFrame: CGRect?
     fileprivate var timer: Timer? = nil
     fileprivate var placeholderLabel: UILabel?
     fileprivate static let cellIdentifier = "APSearchTextFieldCell"
     fileprivate let indicator = UIActivityIndicatorView(style: .gray)
     fileprivate var maxTableViewSize: CGFloat = 0
+    fileprivate var forceDirection: Direction?
     
     fileprivate var filteredResults = [SearchTextFieldItem]()
     fileprivate var filterDataSource = [SearchTextFieldItem]() {
@@ -364,6 +365,14 @@ open class SearchTextField: UITextField {
         self.userStoppedTypingHandler?()
     }
     
+    open func forceUpDirection() {
+        forceDirection = .up
+    }
+    
+    open func forceDownDirection() {
+        forceDirection = .down
+    }
+    
     // Handle text field changes
     @objc open func textFieldDidChange() {
         if !inlineMode && tableView == nil {
@@ -541,12 +550,20 @@ open class SearchTextField: UITextField {
                 direction = .down
             }
             
+            if let tmpDirection = forceDirection {
+                direction = tmpDirection
+            }
+            
             redrawSearchTableView()
         } else {
             if self.center.y + theme.cellHeight > UIApplication.shared.keyWindow!.frame.size.height {
                 direction = .up
             } else {
                 direction = .down
+            }
+            
+            if let tmpDirection = forceDirection {
+                direction = tmpDirection
             }
         }
     }
@@ -637,6 +654,10 @@ public struct SearchTextFieldTheme {
     
     public static func darkTheme() -> SearchTextFieldTheme {
         return SearchTextFieldTheme(cellHeight: 30, bgColor: UIColor (red: 0.8, green: 0.8, blue: 0.8, alpha: 0.6), borderColor: UIColor (red: 0.7, green: 0.7, blue: 0.7, alpha: 1.0), separatorColor: UIColor.clear, font: UIFont.systemFont(ofSize: 10), fontColor: UIColor.white)
+    }
+    
+    public static func fotkaTheme() -> SearchTextFieldTheme {
+        return SearchTextFieldTheme(cellHeight: 40, bgColor: .white, borderColor: .gray, separatorColor: UIColor.clear, font: UIFont.systemFont(ofSize: 12), fontColor: .black)
     }
 }
 
