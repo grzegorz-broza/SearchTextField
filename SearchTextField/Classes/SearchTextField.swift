@@ -69,7 +69,7 @@ open class SearchTextField: UITextField {
         var items = [SearchTextFieldItem]()
         
         for value in strings {
-            items.append(SearchTextFieldItem(title: value))
+            items.append(SearchTextFieldItem(title: value, id: 0))
         }
         
         filterItems(items)
