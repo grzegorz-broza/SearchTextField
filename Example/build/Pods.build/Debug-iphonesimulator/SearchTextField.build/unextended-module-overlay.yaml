@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/grzegorzbroza/Documents/DEVEL/SearchTextField/Example/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/grzegorzbroza/Documents/DEVEL/SearchTextField/Example/build/Pods.build/Debug-iphonesimulator/SearchTextField.build/unextended-module.modulemap",
+    }]
+  }]
+}

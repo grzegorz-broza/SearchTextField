@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+SearchTextField in Pods, no dependencies
+Pods-SearchTextField_Example in Pods, depends on:
+SearchTextField in Pods (explicit)

@@ -1,0 +1,5444 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SearchTextField",
+      "printedName": "SearchTextField",
+      "declKind": "Import",
+      "moduleName": "SearchTextField",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "SearchTextField"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "SearchTextField"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "SearchTextField"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SearchTextField",
+      "printedName": "SearchTextField",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "maxNumberOfResults",
+          "printedName": "maxNumberOfResults",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC18maxNumberOfResultsSivp",
+          "mangledName": "$s15SearchTextFieldAAC18maxNumberOfResultsSivp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC18maxNumberOfResultsSivg",
+              "mangledName": "$s15SearchTextFieldAAC18maxNumberOfResultsSivg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC18maxNumberOfResultsSivs",
+              "mangledName": "$s15SearchTextFieldAAC18maxNumberOfResultsSivs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC18maxNumberOfResultsSivM",
+              "mangledName": "$s15SearchTextFieldAAC18maxNumberOfResultsSivM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "maxResultsListHeight",
+          "printedName": "maxResultsListHeight",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC20maxResultsListHeightSivp",
+          "mangledName": "$s15SearchTextFieldAAC20maxResultsListHeightSivp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC20maxResultsListHeightSivg",
+              "mangledName": "$s15SearchTextFieldAAC20maxResultsListHeightSivg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC20maxResultsListHeightSivs",
+              "mangledName": "$s15SearchTextFieldAAC20maxResultsListHeightSivs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC20maxResultsListHeightSivM",
+              "mangledName": "$s15SearchTextFieldAAC20maxResultsListHeightSivM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "interactedWith",
+          "printedName": "interactedWith",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC14interactedWithSbvp",
+          "mangledName": "$s15SearchTextFieldAAC14interactedWithSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC14interactedWithSbvg",
+              "mangledName": "$s15SearchTextFieldAAC14interactedWithSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC14interactedWithSbvs",
+              "mangledName": "$s15SearchTextFieldAAC14interactedWithSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC14interactedWithSbvM",
+              "mangledName": "$s15SearchTextFieldAAC14interactedWithSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "keyboardIsShowing",
+          "printedName": "keyboardIsShowing",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC17keyboardIsShowingSbvp",
+          "mangledName": "$s15SearchTextFieldAAC17keyboardIsShowingSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17keyboardIsShowingSbvg",
+              "mangledName": "$s15SearchTextFieldAAC17keyboardIsShowingSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17keyboardIsShowingSbvs",
+              "mangledName": "$s15SearchTextFieldAAC17keyboardIsShowingSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17keyboardIsShowingSbvM",
+              "mangledName": "$s15SearchTextFieldAAC17keyboardIsShowingSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "typingStoppedDelay",
+          "printedName": "typingStoppedDelay",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC18typingStoppedDelaySdvp",
+          "mangledName": "$s15SearchTextFieldAAC18typingStoppedDelaySdvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC18typingStoppedDelaySdvg",
+              "mangledName": "$s15SearchTextFieldAAC18typingStoppedDelaySdvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC18typingStoppedDelaySdvs",
+              "mangledName": "$s15SearchTextFieldAAC18typingStoppedDelaySdvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC18typingStoppedDelaySdvM",
+              "mangledName": "$s15SearchTextFieldAAC18typingStoppedDelaySdvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "theme",
+          "printedName": "theme",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldTheme",
+              "printedName": "SearchTextField.SearchTextFieldTheme",
+              "usr": "s:15SearchTextField0abC5ThemeV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC5themeAA0abC5ThemeVvp",
+          "mangledName": "$s15SearchTextFieldAAC5themeAA0abC5ThemeVvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SearchTextFieldTheme",
+                  "printedName": "SearchTextField.SearchTextFieldTheme",
+                  "usr": "s:15SearchTextField0abC5ThemeV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC5themeAA0abC5ThemeVvg",
+              "mangledName": "$s15SearchTextFieldAAC5themeAA0abC5ThemeVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SearchTextFieldTheme",
+                  "printedName": "SearchTextField.SearchTextFieldTheme",
+                  "usr": "s:15SearchTextField0abC5ThemeV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC5themeAA0abC5ThemeVvs",
+              "mangledName": "$s15SearchTextFieldAAC5themeAA0abC5ThemeVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC5themeAA0abC5ThemeVvM",
+              "mangledName": "$s15SearchTextFieldAAC5themeAA0abC5ThemeVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "startVisible",
+          "printedName": "startVisible",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC12startVisibleSbvp",
+          "mangledName": "$s15SearchTextFieldAAC12startVisibleSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12startVisibleSbvg",
+              "mangledName": "$s15SearchTextFieldAAC12startVisibleSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12startVisibleSbvs",
+              "mangledName": "$s15SearchTextFieldAAC12startVisibleSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12startVisibleSbvM",
+              "mangledName": "$s15SearchTextFieldAAC12startVisibleSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "startVisibleWithoutInteraction",
+          "printedName": "startVisibleWithoutInteraction",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC30startVisibleWithoutInteractionSbvp",
+          "mangledName": "$s15SearchTextFieldAAC30startVisibleWithoutInteractionSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC30startVisibleWithoutInteractionSbvg",
+              "mangledName": "$s15SearchTextFieldAAC30startVisibleWithoutInteractionSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC30startVisibleWithoutInteractionSbvs",
+              "mangledName": "$s15SearchTextFieldAAC30startVisibleWithoutInteractionSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC30startVisibleWithoutInteractionSbvM",
+              "mangledName": "$s15SearchTextFieldAAC30startVisibleWithoutInteractionSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "filterItems",
+          "printedName": "filterItems(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[SearchTextField.SearchTextFieldItem]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SearchTextFieldItem",
+                  "printedName": "SearchTextField.SearchTextFieldItem",
+                  "usr": "s:15SearchTextField0abC4ItemC"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextFieldAAC11filterItemsyySayAA0abC4ItemCGF",
+          "mangledName": "$s15SearchTextFieldAAC11filterItemsyySayAA0abC4ItemCGF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "filterStrings",
+          "printedName": "filterStrings(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextFieldAAC13filterStringsyySaySSGF",
+          "mangledName": "$s15SearchTextFieldAAC13filterStringsyySaySSGF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "itemSelectionHandler",
+          "printedName": "itemSelectionHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "(([SearchTextField.SearchTextFieldItem], Swift.Int) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "([SearchTextField.SearchTextFieldItem], Swift.Int) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "([SearchTextField.SearchTextFieldItem], Swift.Int)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Array",
+                          "printedName": "[SearchTextField.SearchTextFieldItem]",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "SearchTextFieldItem",
+                              "printedName": "SearchTextField.SearchTextFieldItem",
+                              "usr": "s:15SearchTextField0abC4ItemC"
+                            }
+                          ],
+                          "usr": "s:Sa"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Int",
+                          "printedName": "Swift.Int",
+                          "usr": "s:Si"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvp",
+          "mangledName": "$s15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "(([SearchTextField.SearchTextFieldItem], Swift.Int) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "([SearchTextField.SearchTextFieldItem], Swift.Int) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "([SearchTextField.SearchTextFieldItem], Swift.Int)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Array",
+                              "printedName": "[SearchTextField.SearchTextFieldItem]",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "SearchTextFieldItem",
+                                  "printedName": "SearchTextField.SearchTextFieldItem",
+                                  "usr": "s:15SearchTextField0abC4ItemC"
+                                }
+                              ],
+                              "usr": "s:Sa"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Int",
+                              "printedName": "Swift.Int",
+                              "usr": "s:Si"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvg",
+              "mangledName": "$s15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "(([SearchTextField.SearchTextFieldItem], Swift.Int) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "([SearchTextField.SearchTextFieldItem], Swift.Int) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "([SearchTextField.SearchTextFieldItem], Swift.Int)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Array",
+                              "printedName": "[SearchTextField.SearchTextFieldItem]",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "SearchTextFieldItem",
+                                  "printedName": "SearchTextField.SearchTextFieldItem",
+                                  "usr": "s:15SearchTextField0abC4ItemC"
+                                }
+                              ],
+                              "usr": "s:Sa"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Int",
+                              "printedName": "Swift.Int",
+                              "usr": "s:Si"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvs",
+              "mangledName": "$s15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvM",
+              "mangledName": "$s15SearchTextFieldAAC20itemSelectionHandlerySayAA0abC4ItemCG_SitcSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "userStoppedTypingHandler",
+          "printedName": "userStoppedTypingHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "(() -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "() -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC24userStoppedTypingHandleryycSgvp",
+          "mangledName": "$s15SearchTextFieldAAC24userStoppedTypingHandleryycSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "(() -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "() -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC24userStoppedTypingHandleryycSgvg",
+              "mangledName": "$s15SearchTextFieldAAC24userStoppedTypingHandleryycSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "(() -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "() -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC24userStoppedTypingHandleryycSgvs",
+              "mangledName": "$s15SearchTextFieldAAC24userStoppedTypingHandleryycSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC24userStoppedTypingHandleryycSgvM",
+              "mangledName": "$s15SearchTextFieldAAC24userStoppedTypingHandleryycSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "highlightAttributes",
+          "printedName": "highlightAttributes",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Foundation.NSAttributedString.Key : AnyObject]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Key",
+                  "printedName": "Foundation.NSAttributedString.Key",
+                  "usr": "c:@T@NSAttributedStringKey"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "AnyObject"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvp",
+          "mangledName": "$s15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Foundation.NSAttributedString.Key : AnyObject]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Key",
+                      "printedName": "Foundation.NSAttributedString.Key",
+                      "usr": "c:@T@NSAttributedStringKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "AnyObject"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvg",
+              "mangledName": "$s15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Foundation.NSAttributedString.Key : AnyObject]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Key",
+                      "printedName": "Foundation.NSAttributedString.Key",
+                      "usr": "c:@T@NSAttributedStringKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "AnyObject"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvs",
+              "mangledName": "$s15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvM",
+              "mangledName": "$s15SearchTextFieldAAC19highlightAttributesSDySo21NSAttributedStringKeyayXlGvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "showLoadingIndicator",
+          "printedName": "showLoadingIndicator()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextFieldAAC20showLoadingIndicatoryyF",
+          "mangledName": "$s15SearchTextFieldAAC20showLoadingIndicatoryyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "forceRightToLeft",
+          "printedName": "forceRightToLeft",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC16forceRightToLeftSbvp",
+          "mangledName": "$s15SearchTextFieldAAC16forceRightToLeftSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 11,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC16forceRightToLeftSbvg",
+              "mangledName": "$s15SearchTextFieldAAC16forceRightToLeftSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC16forceRightToLeftSbvs",
+              "mangledName": "$s15SearchTextFieldAAC16forceRightToLeftSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC16forceRightToLeftSbvM",
+              "mangledName": "$s15SearchTextFieldAAC16forceRightToLeftSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "stopLoadingIndicator",
+          "printedName": "stopLoadingIndicator()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextFieldAAC20stopLoadingIndicatoryyF",
+          "mangledName": "$s15SearchTextFieldAAC20stopLoadingIndicatoryyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "inlineMode",
+          "printedName": "inlineMode",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC10inlineModeSbvp",
+          "mangledName": "$s15SearchTextFieldAAC10inlineModeSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 12,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC10inlineModeSbvg",
+              "mangledName": "$s15SearchTextFieldAAC10inlineModeSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC10inlineModeSbvs",
+              "mangledName": "$s15SearchTextFieldAAC10inlineModeSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC10inlineModeSbvM",
+              "mangledName": "$s15SearchTextFieldAAC10inlineModeSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "startFilteringAfter",
+          "printedName": "startFilteringAfter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC19startFilteringAfterSSSgvp",
+          "mangledName": "$s15SearchTextFieldAAC19startFilteringAfterSSSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 13,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC19startFilteringAfterSSSgvg",
+              "mangledName": "$s15SearchTextFieldAAC19startFilteringAfterSSSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC19startFilteringAfterSSSgvs",
+              "mangledName": "$s15SearchTextFieldAAC19startFilteringAfterSSSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC19startFilteringAfterSSSgvM",
+              "mangledName": "$s15SearchTextFieldAAC19startFilteringAfterSSSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "minCharactersNumberToStartFiltering",
+          "printedName": "minCharactersNumberToStartFiltering",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivp",
+          "mangledName": "$s15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 14,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivg",
+              "mangledName": "$s15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivs",
+              "mangledName": "$s15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivM",
+              "mangledName": "$s15SearchTextFieldAAC35minCharactersNumberToStartFilteringSivM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "forceNoFiltering",
+          "printedName": "forceNoFiltering",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC16forceNoFilteringSbvp",
+          "mangledName": "$s15SearchTextFieldAAC16forceNoFilteringSbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 15,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC16forceNoFilteringSbvg",
+              "mangledName": "$s15SearchTextFieldAAC16forceNoFilteringSbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC16forceNoFilteringSbvs",
+              "mangledName": "$s15SearchTextFieldAAC16forceNoFilteringSbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC16forceNoFilteringSbvM",
+              "mangledName": "$s15SearchTextFieldAAC16forceNoFilteringSbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "startSuggestingImmediately",
+          "printedName": "startSuggestingImmediately",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC26startSuggestingImmediatelySbvp",
+          "mangledName": "$s15SearchTextFieldAAC26startSuggestingImmediatelySbvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 16,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC26startSuggestingImmediatelySbvg",
+              "mangledName": "$s15SearchTextFieldAAC26startSuggestingImmediatelySbvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC26startSuggestingImmediatelySbvs",
+              "mangledName": "$s15SearchTextFieldAAC26startSuggestingImmediatelySbvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC26startSuggestingImmediatelySbvM",
+              "mangledName": "$s15SearchTextFieldAAC26startSuggestingImmediatelySbvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "comparisonOptions",
+          "printedName": "comparisonOptions",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CompareOptions",
+              "printedName": "Foundation.NSString.CompareOptions",
+              "usr": "c:@E@NSStringCompareOptions"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0Vvp",
+          "mangledName": "$s15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0Vvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 17,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CompareOptions",
+                  "printedName": "Foundation.NSString.CompareOptions",
+                  "usr": "c:@E@NSStringCompareOptions"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0Vvg",
+              "mangledName": "$s15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0Vvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CompareOptions",
+                  "printedName": "Foundation.NSString.CompareOptions",
+                  "usr": "c:@E@NSStringCompareOptions"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0Vvs",
+              "mangledName": "$s15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0Vvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0VvM",
+              "mangledName": "$s15SearchTextFieldAAC17comparisonOptionsSo015NSStringCompareE0VvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "resultsListHeader",
+          "printedName": "resultsListHeader",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvp",
+          "mangledName": "$s15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 18,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIView",
+                      "printedName": "UIKit.UIView",
+                      "usr": "c:objc(cs)UIView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvg",
+              "mangledName": "$s15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIView",
+                      "printedName": "UIKit.UIView",
+                      "usr": "c:objc(cs)UIView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvs",
+              "mangledName": "$s15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvM",
+              "mangledName": "$s15SearchTextFieldAAC17resultsListHeaderSo6UIViewCSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "tableXOffset",
+          "printedName": "tableXOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 19,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s15SearchTextFieldAAC12tableXOffset12CoreGraphics7CGFloatVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "tableYOffset",
+          "printedName": "tableYOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 20,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s15SearchTextFieldAAC12tableYOffset12CoreGraphics7CGFloatVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "tableCornerRadius",
+          "printedName": "tableCornerRadius",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 21,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s15SearchTextFieldAAC17tableCornerRadius12CoreGraphics7CGFloatVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "tableBottomMargin",
+          "printedName": "tableBottomMargin",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 22,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s15SearchTextFieldAAC17tableBottomMargin12CoreGraphics7CGFloatVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "tableView",
+          "printedName": "tableView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UITableView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITableView",
+                  "printedName": "UIKit.UITableView",
+                  "usr": "c:objc(cs)UITableView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC9tableView33_B065AD8DB4D7D589368CF5D30757BC21LLSo07UITableE0CSgvp",
+          "mangledName": "$s15SearchTextFieldAAC9tableView33_B065AD8DB4D7D589368CF5D30757BC21LLSo07UITableE0CSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 23,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "shadowView",
+          "printedName": "shadowView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC10shadowView33_B065AD8DB4D7D589368CF5D30757BC21LLSo6UIViewCSgvp",
+          "mangledName": "$s15SearchTextFieldAAC10shadowView33_B065AD8DB4D7D589368CF5D30757BC21LLSo6UIViewCSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 24,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "direction",
+          "printedName": "direction",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Direction",
+              "printedName": "SearchTextField.Direction",
+              "usr": "s:15SearchTextField9DirectionO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC9direction33_B065AD8DB4D7D589368CF5D30757BC21LLAA9DirectionOvp",
+          "mangledName": "$s15SearchTextFieldAAC9direction33_B065AD8DB4D7D589368CF5D30757BC21LLAA9DirectionOvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 25,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "fontConversionRate",
+          "printedName": "fontConversionRate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC18fontConversionRate33_B065AD8DB4D7D589368CF5D30757BC21LL12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextFieldAAC18fontConversionRate33_B065AD8DB4D7D589368CF5D30757BC21LL12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 26,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "keyboardFrame",
+          "printedName": "keyboardFrame",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreGraphics.CGRect?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGRect",
+                  "printedName": "CoreGraphics.CGRect",
+                  "usr": "c:@S@CGRect"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC13keyboardFrame33_B065AD8DB4D7D589368CF5D30757BC21LLSo6CGRectVSgvp",
+          "mangledName": "$s15SearchTextFieldAAC13keyboardFrame33_B065AD8DB4D7D589368CF5D30757BC21LLSo6CGRectVSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 27,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "timer",
+          "printedName": "timer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Timer?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Timer",
+                  "printedName": "Foundation.Timer",
+                  "usr": "c:objc(cs)NSTimer"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC5timer33_B065AD8DB4D7D589368CF5D30757BC21LLSo7NSTimerCSgvp",
+          "mangledName": "$s15SearchTextFieldAAC5timer33_B065AD8DB4D7D589368CF5D30757BC21LLSo7NSTimerCSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 28,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "placeholderLabel",
+          "printedName": "placeholderLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC16placeholderLabel33_B065AD8DB4D7D589368CF5D30757BC21LLSo7UILabelCSgvp",
+          "mangledName": "$s15SearchTextFieldAAC16placeholderLabel33_B065AD8DB4D7D589368CF5D30757BC21LLSo7UILabelCSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 29,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "indicator",
+          "printedName": "indicator",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIActivityIndicatorView",
+              "printedName": "UIKit.UIActivityIndicatorView",
+              "usr": "c:objc(cs)UIActivityIndicatorView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC9indicator33_B065AD8DB4D7D589368CF5D30757BC21LLSo23UIActivityIndicatorViewCvp",
+          "mangledName": "$s15SearchTextFieldAAC9indicator33_B065AD8DB4D7D589368CF5D30757BC21LLSo23UIActivityIndicatorViewCvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 30,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "maxTableViewSize",
+          "printedName": "maxTableViewSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC16maxTableViewSize33_B065AD8DB4D7D589368CF5D30757BC21LL12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextFieldAAC16maxTableViewSize33_B065AD8DB4D7D589368CF5D30757BC21LL12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 31,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "filteredResults",
+          "printedName": "filteredResults",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[SearchTextField.SearchTextFieldItem]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SearchTextFieldItem",
+                  "printedName": "SearchTextField.SearchTextFieldItem",
+                  "usr": "s:15SearchTextField0abC4ItemC"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC15filteredResults33_B065AD8DB4D7D589368CF5D30757BC21LLSayAA0abC4ItemCGvp",
+          "mangledName": "$s15SearchTextFieldAAC15filteredResults33_B065AD8DB4D7D589368CF5D30757BC21LLSayAA0abC4ItemCGvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 32,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "filterDataSource",
+          "printedName": "filterDataSource",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[SearchTextField.SearchTextFieldItem]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SearchTextFieldItem",
+                  "printedName": "SearchTextField.SearchTextFieldItem",
+                  "usr": "s:15SearchTextField0abC4ItemC"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC16filterDataSource33_B065AD8DB4D7D589368CF5D30757BC21LLSayAA0abC4ItemCGvp",
+          "mangledName": "$s15SearchTextFieldAAC16filterDataSource33_B065AD8DB4D7D589368CF5D30757BC21LLSayAA0abC4ItemCGvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 33,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "currentInlineItem",
+          "printedName": "currentInlineItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextFieldAAC17currentInlineItem33_B065AD8DB4D7D589368CF5D30757BC21LLSSvp",
+          "mangledName": "$s15SearchTextFieldAAC17currentInlineItem33_B065AD8DB4D7D589368CF5D30757BC21LLSSvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 34,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "willMove",
+          "printedName": "willMove(toWindow:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)willMoveToWindow:",
+          "mangledName": "$s15SearchTextFieldAAC8willMove8toWindowySo8UIWindowCSg_tF",
+          "moduleName": "SearchTextField",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "willMoveToWindow:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "willMove",
+          "printedName": "willMove(toSuperview:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)willMoveToSuperview:",
+          "mangledName": "$s15SearchTextFieldAAC8willMove11toSuperviewySo6UIViewCSg_tF",
+          "moduleName": "SearchTextField",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "willMoveToSuperview:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "layoutSubviews",
+          "printedName": "layoutSubviews()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)layoutSubviews",
+          "mangledName": "$s15SearchTextFieldAAC14layoutSubviewsyyF",
+          "moduleName": "SearchTextField",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "layoutSubviews",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "rightViewRect",
+          "printedName": "rightViewRect(forBounds:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)rightViewRectForBounds:",
+          "mangledName": "$s15SearchTextFieldAAC13rightViewRect9forBoundsSo6CGRectVAF_tF",
+          "moduleName": "SearchTextField",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "rightViewRectForBounds:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "keyboardWillShow",
+          "printedName": "keyboardWillShow(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)keyboardWillShow:",
+          "mangledName": "$s15SearchTextFieldAAC16keyboardWillShowyy10Foundation12NotificationVF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "keyboardWillHide",
+          "printedName": "keyboardWillHide(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)keyboardWillHide:",
+          "mangledName": "$s15SearchTextFieldAAC16keyboardWillHideyy10Foundation12NotificationVF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "keyboardDidChangeFrame",
+          "printedName": "keyboardDidChangeFrame(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)keyboardDidChangeFrame:",
+          "mangledName": "$s15SearchTextFieldAAC22keyboardDidChangeFrameyy10Foundation12NotificationVF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "typingDidStop",
+          "printedName": "typingDidStop()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)typingDidStop",
+          "mangledName": "$s15SearchTextFieldAAC13typingDidStopyyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "textFieldDidChange",
+          "printedName": "textFieldDidChange()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)textFieldDidChange",
+          "mangledName": "$s15SearchTextFieldAAC04textC9DidChangeyyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "textFieldDidBeginEditing",
+          "printedName": "textFieldDidBeginEditing()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)textFieldDidBeginEditing",
+          "mangledName": "$s15SearchTextFieldAAC04textC15DidBeginEditingyyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "textFieldDidEndEditing",
+          "printedName": "textFieldDidEndEditing()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)textFieldDidEndEditing",
+          "mangledName": "$s15SearchTextFieldAAC04textC13DidEndEditingyyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "textFieldDidEndEditingOnExit",
+          "printedName": "textFieldDidEndEditingOnExit()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)textFieldDidEndEditingOnExit",
+          "mangledName": "$s15SearchTextFieldAAC04textC19DidEndEditingOnExityyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hideResultsList",
+          "printedName": "hideResultsList()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextFieldAAC15hideResultsListyyF",
+          "mangledName": "$s15SearchTextFieldAAC15hideResultsListyyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handleInlineFiltering",
+          "printedName": "handleInlineFiltering()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextFieldAAC21handleInlineFilteringyyF",
+          "mangledName": "$s15SearchTextFieldAAC21handleInlineFilteringyyF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextField",
+              "printedName": "SearchTextField.SearchTextField",
+              "usr": "c:@M@SearchTextField@objc(cs)SearchTextField"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)initWithFrame:",
+          "mangledName": "$s15SearchTextFieldAAC5frameABSo6CGRectV_tcfc",
+          "moduleName": "SearchTextField",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "SearchTextField.SearchTextField?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SearchTextField",
+                  "printedName": "SearchTextField.SearchTextField",
+                  "usr": "c:@M@SearchTextField@objc(cs)SearchTextField"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@SearchTextField@objc(cs)SearchTextField(im)initWithCoder:",
+          "mangledName": "$s15SearchTextFieldAAC5coderABSgSo7NSCoderC_tcfc",
+          "moduleName": "SearchTextField",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:numberOfRowsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@SearchTextField@objc(cs)SearchTextField(im)tableView:numberOfRowsInSection:",
+          "mangledName": "$s15SearchTextFieldAAC9tableView_21numberOfRowsInSectionSiSo07UITableE0C_SitF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "objc_name": "tableView:numberOfRowsInSection:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:cellForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableViewCell",
+              "printedName": "UIKit.UITableViewCell",
+              "usr": "c:objc(cs)UITableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@SearchTextField@objc(cs)SearchTextField(im)tableView:cellForRowAtIndexPath:",
+          "mangledName": "$s15SearchTextFieldAAC9tableView_12cellForRowAtSo07UITableE4CellCSo0jE0C_10Foundation9IndexPathVtF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:heightForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@SearchTextField@objc(cs)SearchTextField(im)tableView:heightForRowAtIndexPath:",
+          "mangledName": "$s15SearchTextFieldAAC9tableView_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableE0C_10Foundation9IndexPathVtF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "objc_name": "tableView:heightForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:didSelectRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@SearchTextField@objc(cs)SearchTextField(im)tableView:didSelectRowAtIndexPath:",
+          "mangledName": "$s15SearchTextFieldAAC9tableView_14didSelectRowAtySo07UITableE0C_10Foundation9IndexPathVtF",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "objc_name": "tableView:didSelectRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@SearchTextField@objc(cs)SearchTextField",
+      "mangledName": "$s15SearchTextFieldAAC",
+      "moduleName": "SearchTextField",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITextField",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITextField",
+        "UIKit.UIControl",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SearchTextFieldTheme",
+      "printedName": "SearchTextFieldTheme",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "cellHeight",
+          "printedName": "cellHeight",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV10cellHeight12CoreGraphics7CGFloatVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bgColor",
+          "printedName": "bgColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV7bgColorSo7UIColorCvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "borderColor",
+          "printedName": "borderColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV11borderColorSo7UIColorCvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "borderWidth",
+          "printedName": "borderWidth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV11borderWidth12CoreGraphics7CGFloatVvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "separatorColor",
+          "printedName": "separatorColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV14separatorColorSo7UIColorCvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "font",
+          "printedName": "font",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIFont",
+              "printedName": "UIKit.UIFont",
+              "usr": "c:objc(cs)UIFont"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV4fontSo6UIFontCvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV4fontSo6UIFontCvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIFont",
+                  "printedName": "UIKit.UIFont",
+                  "usr": "c:objc(cs)UIFont"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV4fontSo6UIFontCvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV4fontSo6UIFontCvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIFont",
+                  "printedName": "UIKit.UIFont",
+                  "usr": "c:objc(cs)UIFont"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV4fontSo6UIFontCvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV4fontSo6UIFontCvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV4fontSo6UIFontCvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV4fontSo6UIFontCvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "fontColor",
+          "printedName": "fontColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV9fontColorSo7UIColorCvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "subtitleFontColor",
+          "printedName": "subtitleFontColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV17subtitleFontColorSo7UIColorCvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "placeholderColor",
+          "printedName": "placeholderColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIColor?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvp",
+          "mangledName": "$s15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvp",
+          "moduleName": "SearchTextField",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIColor?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIColor",
+                      "printedName": "UIKit.UIColor",
+                      "usr": "c:objc(cs)UIColor"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvg",
+              "mangledName": "$s15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIColor?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIColor",
+                      "printedName": "UIKit.UIColor",
+                      "usr": "c:objc(cs)UIColor"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvs",
+              "mangledName": "$s15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvM",
+              "mangledName": "$s15SearchTextField0abC5ThemeV16placeholderColorSo7UIColorCSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(cellHeight:bgColor:borderColor:separatorColor:font:fontColor:subtitleFontColor:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldTheme",
+              "printedName": "SearchTextField.SearchTextFieldTheme",
+              "usr": "s:15SearchTextField0abC5ThemeV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIFont",
+              "printedName": "UIKit.UIFont",
+              "usr": "c:objc(cs)UIFont"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIColor",
+              "printedName": "UIKit.UIColor",
+              "usr": "c:objc(cs)UIColor"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIColor?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIColor",
+                  "printedName": "UIKit.UIColor",
+                  "usr": "c:objc(cs)UIColor"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15SearchTextField0abC5ThemeV10cellHeight7bgColor06borderH009separatorH04font0kH0012subtitleFontH0AC12CoreGraphics7CGFloatV_So7UIColorCA2OSo6UIFontCA2OSgtcfc",
+          "mangledName": "$s15SearchTextField0abC5ThemeV10cellHeight7bgColor06borderH009separatorH04font0kH0012subtitleFontH0AC12CoreGraphics7CGFloatV_So7UIColorCA2OSo6UIFontCA2OSgtcfc",
+          "moduleName": "SearchTextField",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "lightTheme",
+          "printedName": "lightTheme()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldTheme",
+              "printedName": "SearchTextField.SearchTextFieldTheme",
+              "usr": "s:15SearchTextField0abC5ThemeV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextField0abC5ThemeV05lightD0ACyFZ",
+          "mangledName": "$s15SearchTextField0abC5ThemeV05lightD0ACyFZ",
+          "moduleName": "SearchTextField",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "darkTheme",
+          "printedName": "darkTheme()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldTheme",
+              "printedName": "SearchTextField.SearchTextFieldTheme",
+              "usr": "s:15SearchTextField0abC5ThemeV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextField0abC5ThemeV04darkD0ACyFZ",
+          "mangledName": "$s15SearchTextField0abC5ThemeV04darkD0ACyFZ",
+          "moduleName": "SearchTextField",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:15SearchTextField0abC5ThemeV",
+      "mangledName": "$s15SearchTextField0abC5ThemeV",
+      "moduleName": "SearchTextField"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SearchTextFieldItem",
+      "printedName": "SearchTextFieldItem",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "attributedTitle",
+          "printedName": "attributedTitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSMutableAttributedString?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSMutableAttributedString",
+                  "printedName": "Foundation.NSMutableAttributedString",
+                  "usr": "c:objc(cs)NSMutableAttributedString"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC4ItemC15attributedTitle33_B065AD8DB4D7D589368CF5D30757BC21LLSo25NSMutableAttributedStringCSgvp",
+          "mangledName": "$s15SearchTextField0abC4ItemC15attributedTitle33_B065AD8DB4D7D589368CF5D30757BC21LLSo25NSMutableAttributedStringCSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "attributedSubtitle",
+          "printedName": "attributedSubtitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSMutableAttributedString?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSMutableAttributedString",
+                  "printedName": "Foundation.NSMutableAttributedString",
+                  "usr": "c:objc(cs)NSMutableAttributedString"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC4ItemC18attributedSubtitle33_B065AD8DB4D7D589368CF5D30757BC21LLSo25NSMutableAttributedStringCSgvp",
+          "mangledName": "$s15SearchTextField0abC4ItemC18attributedSubtitle33_B065AD8DB4D7D589368CF5D30757BC21LLSo25NSMutableAttributedStringCSgvp",
+          "moduleName": "SearchTextField",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "title",
+          "printedName": "title",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC4ItemC5titleSSvp",
+          "mangledName": "$s15SearchTextField0abC4ItemC5titleSSvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC5titleSSvg",
+              "mangledName": "$s15SearchTextField0abC4ItemC5titleSSvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC5titleSSvs",
+              "mangledName": "$s15SearchTextField0abC4ItemC5titleSSvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC5titleSSvM",
+              "mangledName": "$s15SearchTextField0abC4ItemC5titleSSvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "subtitle",
+          "printedName": "subtitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC4ItemC8subtitleSSSgvp",
+          "mangledName": "$s15SearchTextField0abC4ItemC8subtitleSSSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC8subtitleSSSgvg",
+              "mangledName": "$s15SearchTextField0abC4ItemC8subtitleSSSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC8subtitleSSSgvs",
+              "mangledName": "$s15SearchTextField0abC4ItemC8subtitleSSSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC8subtitleSSSgvM",
+              "mangledName": "$s15SearchTextField0abC4ItemC8subtitleSSSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "image",
+          "printedName": "image",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImage?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC4ItemC5imageSo7UIImageCSgvp",
+          "mangledName": "$s15SearchTextField0abC4ItemC5imageSo7UIImageCSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIImage?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC5imageSo7UIImageCSgvg",
+              "mangledName": "$s15SearchTextField0abC4ItemC5imageSo7UIImageCSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIImage?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC5imageSo7UIImageCSgvs",
+              "mangledName": "$s15SearchTextField0abC4ItemC5imageSo7UIImageCSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC5imageSo7UIImageCSgvM",
+              "mangledName": "$s15SearchTextField0abC4ItemC5imageSo7UIImageCSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField0abC4ItemC2idSiSgvp",
+          "mangledName": "$s15SearchTextField0abC4ItemC2idSiSgvp",
+          "moduleName": "SearchTextField",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC2idSiSgvg",
+              "mangledName": "$s15SearchTextField0abC4ItemC2idSiSgvg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC2idSiSgvs",
+              "mangledName": "$s15SearchTextField0abC4ItemC2idSiSgvs",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField0abC4ItemC2idSiSgvM",
+              "mangledName": "$s15SearchTextField0abC4ItemC2idSiSgvM",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:subtitle:image:id:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldItem",
+              "printedName": "SearchTextField.SearchTextFieldItem",
+              "usr": "s:15SearchTextField0abC4ItemC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImage?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15SearchTextField0abC4ItemC5title8subtitle5image2idACSS_SSSgSo7UIImageCSgSiSgtcfc",
+          "mangledName": "$s15SearchTextField0abC4ItemC5title8subtitle5image2idACSS_SSSgSo7UIImageCSgSiSgtcfc",
+          "moduleName": "SearchTextField",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:subtitle:id:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldItem",
+              "printedName": "SearchTextField.SearchTextFieldItem",
+              "usr": "s:15SearchTextField0abC4ItemC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15SearchTextField0abC4ItemC5title8subtitle2idACSS_SSSgSiSgtcfc",
+          "mangledName": "$s15SearchTextField0abC4ItemC5title8subtitle2idACSS_SSSgSiSgtcfc",
+          "moduleName": "SearchTextField",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:id:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SearchTextFieldItem",
+              "printedName": "SearchTextField.SearchTextFieldItem",
+              "usr": "s:15SearchTextField0abC4ItemC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15SearchTextField0abC4ItemC5title2idACSS_SiSgtcfc",
+          "mangledName": "$s15SearchTextField0abC4ItemC5title2idACSS_SiSgtcfc",
+          "moduleName": "SearchTextField",
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:15SearchTextField0abC4ItemC",
+      "mangledName": "$s15SearchTextField0abC4ItemC",
+      "moduleName": "SearchTextField",
+      "isOpen": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Direction",
+      "printedName": "Direction",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "down",
+          "printedName": "down",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SearchTextField.Direction.Type) -> SearchTextField.Direction",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Direction",
+                  "printedName": "SearchTextField.Direction",
+                  "usr": "s:15SearchTextField9DirectionO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SearchTextField.Direction.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Direction",
+                      "printedName": "SearchTextField.Direction",
+                      "usr": "s:15SearchTextField9DirectionO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:15SearchTextField9DirectionO4downyA2CmF",
+          "mangledName": "$s15SearchTextField9DirectionO4downyA2CmF",
+          "moduleName": "SearchTextField",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "up",
+          "printedName": "up",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SearchTextField.Direction.Type) -> SearchTextField.Direction",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Direction",
+                  "printedName": "SearchTextField.Direction",
+                  "usr": "s:15SearchTextField9DirectionO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "SearchTextField.Direction.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Direction",
+                      "printedName": "SearchTextField.Direction",
+                      "usr": "s:15SearchTextField9DirectionO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:15SearchTextField9DirectionO2upyA2CmF",
+          "mangledName": "$s15SearchTextField9DirectionO2upyA2CmF",
+          "moduleName": "SearchTextField",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_enum_equals",
+          "printedName": "__derived_enum_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Direction",
+              "printedName": "SearchTextField.Direction",
+              "usr": "s:15SearchTextField9DirectionO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Direction",
+              "printedName": "SearchTextField.Direction",
+              "usr": "s:15SearchTextField9DirectionO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextField9DirectionO21__derived_enum_equalsySbAC_ACtFZ",
+          "mangledName": "$s15SearchTextField9DirectionO21__derived_enum_equalsySbAC_ACtFZ",
+          "moduleName": "SearchTextField",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15SearchTextField9DirectionO4hash4intoys6HasherVz_tF",
+          "mangledName": "$s15SearchTextField9DirectionO4hash4intoys6HasherVz_tF",
+          "moduleName": "SearchTextField",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15SearchTextField9DirectionO9hashValueSivp",
+          "mangledName": "$s15SearchTextField9DirectionO9hashValueSivp",
+          "moduleName": "SearchTextField",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15SearchTextField9DirectionO9hashValueSivg",
+              "mangledName": "$s15SearchTextField9DirectionO9hashValueSivg",
+              "moduleName": "SearchTextField",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:15SearchTextField9DirectionO",
+      "mangledName": "$s15SearchTextField9DirectionO",
+      "moduleName": "SearchTextField",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
